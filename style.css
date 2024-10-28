@@ -1,0 +1,475 @@
+.section-home{ 
+    /* this class of fist side menu of website .this class for style the size and width */
+    height: 20.5cm;
+    width: 240px;
+    top: 0px;
+    position: fixed;
+   
+    
+
+    
+   
+
+    
+
+}
+body{
+        /* this class style is defualt in all element in body tag */
+
+    margin: 0px;
+    margin-top: 0x;
+    font-family: "Instagram Sans UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial;
+    background-color: #fff;
+   
+   
+}
+.vertical { 
+    /* vertical  line style of side menu */
+    position: fixed;
+     border-left: 1px solid #80808057;
+    height: 744px;
+    margin-left: 244px;
+    
+}
+.logo{
+   /* used to style the logo of website */
+    position: fixed;
+    padding-left: 12px;
+    width: 105px;
+    top: 44px;
+    left: 10px;
+    
+    
+
+
+}
+.home{
+    /* home icon style */
+    position: fixed;
+    top: 15.5%;
+    width: 220px;
+    height: 40px;
+    border-width: inherit;
+    border-radius: 8px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+/* .home:hover{
+    
+    background-color: #f4f4f4;
+}*/
+
+#hm{
+    /*this id is used to home icon style and postion */
+    position: relative;
+    left: 12px;
+    width: 25px;
+    height: 25px;
+   
+}
+#caption-home{
+    /* this is for home caption becuase the font different from others */
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: -5px;
+    left: 50px;
+}
+.caption{
+    /* this class is for all font style for elements in section-home div  */
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    top: -7px;
+    left: 50px;
+}
+
+.search{
+/* this div for align the search div properly */
+    position: fixed;
+    top: 22.5%;
+    width: 220px;
+    height: 40px;
+    border-width: inherit;
+    border-radius: 8px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.search:hover ,.home:hover,.search:hover,.explore:hover,.reel:hover,.messenger:hover,.notification:hover,.creates:hover,.profile:hover,.Thread:hover,.more:hover{
+    background-color: #f4f4f4;
+}
+
+
+.explore{
+    /* this div for align the explore div properly */
+
+    position: fixed;
+    top: 29.5%;
+    width: 220px;
+    height: 40px;
+    border-width: inherit;
+    border-radius: 8px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .icon{
+    
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 12px;
+} 
+.reel{
+    /* this div for align the reel div properly */
+
+    position: fixed;
+    top: 36.5%;
+    width: 220px;
+    height: 40px;
+    border-width: inherit;
+    border-radius: 8px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.messenger{
+    /* this div for align the messenger div properly */
+
+    position: fixed;
+    top: 43.5%;
+    width: 220px;
+    height: 40px;
+    border-width: inherit;
+    border-radius: 8px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.notification{
+    /* this div for align the notification div properly */
+
+    position: fixed;
+    top: 50.5%;
+    width: 220px;
+    height: 40px;
+    border-width: inherit;
+    border-radius: 8px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.creates{
+    /* this div for align the creates  div properly */
+
+    position: fixed;
+    top: 57.5%;
+    width: 220px;
+    height: 40px;
+    border-width: inherit;
+    border-radius: 8px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.profile{
+    /* this div for align the profle div properly */
+
+    position: fixed;
+    top: 64.5%;
+    width: 220px;
+    border-radius: 8px;
+    height: 40px;
+    border-width: inherit;
+    border-radius: 8px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Thread{
+    /* this div for align the thread div properly */
+
+    position: fixed;
+    top: 83.5%;
+    width: 220px;
+    height: 40px;
+    border-width: inherit;
+    border-radius: 8px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#thr{
+   /* this tread is an id becuase this icon in <i> the position not proper in div ... reason this tage is a inline element */
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 12px;
+    left: 12px;
+}
+.more{
+    /* this div for align the more div properly */
+
+    position: fixed;
+    top: 90.5%;
+    width: 220px;
+    height: 40px;
+    border-width: inherit;
+    border-radius: 8px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.story-container{
+    /* this class is for story part  */
+    width: 43%;
+    height: 0px;
+    position: relative;
+    top: 18px;
+    left: 23.5rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#st{
+    width: 100%;  /* image width base on the story container div*/
+    height: 100%;  /* image height based on the story container */
+    object-fit: cover;
+}
+.main-area{   /* the first post style class */
+    width: 12.4cm;
+    height: 22cm;
+    position: relative; /* relative very useful to give position for div */
+    top: 8.5rem;
+    left: 28rem;
+    
+
+
+}
+.main-area2{  /* the second post style class */
+    width: 12.4cm;
+    height: 22cm;
+    position: relative;  /* relative very useful to give position for div */
+    top: 6rem;
+    left: 28rem;
+}
+.main-area3{  /* the third post style class */
+    width: 12.4cm;
+    height: 22cm;
+    position: relative; /* relative very useful to give position for div */
+    top: 4rem;
+    left: 28rem;
+}
+.dp-img{
+    width: 32px;
+    height: 32px;
+    padding-left: 2px;
+    padding-top: 4px;
+    object-fit: cover;
+}
+
+#dp{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+#options{
+    position: absolute;
+    left: 27.5rem;
+    top: 9px;
+}
+
+
+.dp-name{
+    position: absolute;
+    left: 43px;
+    top: -7px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.time{
+    position: absolute;
+    left: 105px;
+    top: 9px;
+    font-size: 14px;
+    color: gray;
+  
+}
+.post{
+    width: 12.4cm;
+    object-fit: cover;
+    height: 15cm;
+    border-radius: 3px;
+}
+
+#com{
+    
+    transform: scaleX(-1);
+    position: absolute;
+    left: 42px;
+    width: 30px;
+    height: 30px;
+    padding-top: 15px;
+}
+#save{
+    float: right;
+    padding-top: 15px;
+    width: 32px;
+    height: 32px;
+    padding-top: 15px;
+}
+#share{
+    transform: rotate(-37deg);
+    position: absolute;
+    left: 85px;
+    width: 27px;
+    height: 36px;
+    padding-top: 9.5px;
+}
+#like{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    padding-top: 15px;
+  
+   
+
+}
+.like-number{
+    font-size: 14px;
+    font-weight: 600; 
+    padding-top: 12px;
+}
+.caption-likes{
+    padding-top: 31px;
+}
+#caption2{
+    position: absolute;
+    bottom: 99px;
+    font-size: 14px;
+}
+.comment-area{
+    padding-top: 6px;
+}
+.comment-style{
+    font-size: 14px;
+    color: #808080;
+}
+.simle-bt{
+    float: right;
+    position: absolute;
+    left: 28rem;
+    bottom: 65px;
+}
+.hr-sty{
+    height:1px;
+    border-width:0;
+    color:#808080;
+    background-color: rgba(0, 0, 0, 0.15)
+}
+.right-section { /* this class is the main class of inside elements */
+    width: 7.5cm;
+    position: absolute;  
+    margin-left: 68rem;
+    top: 31px;
+}
+
+.person-div {
+    display: flex; /* flex is use for align content on center of div */
+    align-items: center; /* center  is use for align content on center of div */
+    width: 100%;
+    height: 52px;
+    margin-bottom: 2.5px;
+}
+
+.suggestion-image { /* this class use for give style for all images inside right-section div*/
+    object-fit: cover;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+}
+
+.user-id { /* user id class for all images */
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0;
+}
+
+.user-name { /* user name class for all images */
+    color: #808080;
+    font-size: 12px;
+    margin: 0;
+}
+
+.user-info { 
+    display: flex; 
+    flex-direction: column; /* this use give the correct space between words  */
+}
+
+.last-button { /* this class is usd to style the follow button and switch button */
+    color: rgb(0, 149, 246);
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: auto; /* margin is given for proper postion  */
+}
+
+.sugan {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-words{
+    color:rgb(199, 199, 199);
+    font-size: 12px;
+
+}
+.footer{
+    padding-top: 11px;
+}
+
+#ic{
+    /* the style of "2024 INSTAGRAM FROM META" */
+    position: absolute;
+    bottom: -9px;
+    left: 14px;
+    font-weight: 400;
+}
+.verification{
+    padding-top: 5px;
+}
+   
